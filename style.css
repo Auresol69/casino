@@ -1,0 +1,43 @@
+body {
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 9px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.case {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    background-color: #a1a1a1;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 10px 10px;
+}
+
+#screen {
+    padding: 5px 0;
+    border-radius: 10px;
+    color: aliceblue;
+    width: 100%;
+    height: 50px;
+    background-color: #434343;
+}
+
+.keyboard {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn,
+.operation,
+#ketqua {
+    background-color: #434343;
+    width: 20px;
+    color: aliceblue;
+}
