@@ -42,7 +42,7 @@ window.onload = function () {
         })
     });
 
-    document.getElementById("=").addEventListener("click", function () {
+    document.getElementById("ketqua").addEventListener("click", function () {
         if (num1 !== null && num2 !== null && operation !== null) {
             const num1value = parseFloat(num1);
             const num2value = parseFloat(num2);
